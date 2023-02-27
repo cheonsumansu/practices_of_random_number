@@ -1,2 +1,3 @@
-# practices_of_random_number
-just random number generator practices
+## repo :: random_generator_practices
+
+just a practices of random number generator
