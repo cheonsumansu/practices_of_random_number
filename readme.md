@@ -4,7 +4,8 @@ hi, this is practices for random number generator.
 </br>
 
 * in python
-> code to pick lotto numbers using random module and linear congruential generator.   
+> practices of random module and linear congruential generator.   
+</br>
 
 * in javascript   
 > simple web page using math method in html, css and javascript.   
