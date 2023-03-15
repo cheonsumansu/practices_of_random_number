@@ -1,7 +1,7 @@
 import random
-from datetime import datetime
+import pr_get_number as gn
 
-random.seed(int(datetime.now().microsecond))
+random.seed(gn.getSeed)
 lotto = []
 i = 0
 while (i<6) :
