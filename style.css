@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #a180f2;
+}
+main {
+    padding: 2rem;
+    background: #e2e2e2;
+    border-radius: 0.2rem;
+}
+.container {
+    margin: 2.5rem 0;
+}
+.container h2 {
+    padding: 1rem 0 3rem;
+    text-align: center;
+}
+h2 #violet {
+    color: #8666D9;
+}
+.container :where(input, button) {
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+}
+.rand_range {
+    margin: 0 5rem;
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.rand_range p {
+    margin-bottom: 0.8rem;
+}
+.rand_range input {
+    width: 14rem;
+    height: 2.2rem;
+    padding: 0 1rem;
+}
+.rand_range input:focus {
+    padding: 0 0.99em;
+    border: 0.1rem solid #B6A2E8;
+}
+.container .btn_generate {
+    display: block;
+    margin: auto;
+    width: 27rem;
+    height: 4rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background: #6A69DB;
+    cursor: pointer;
+}
+.randnumber_list {
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+    overflow: auto;
+}
+.randnumber_list .wrapper {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    color: #928AB8;
+}
+.randnumber_list .wrapper:nth-child(1) {
+    background: #7A69DB;
+    color: #ffffff;
+}
